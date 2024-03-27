@@ -2,7 +2,6 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 x = st.slider('Select a value')
 st.write(x, 'is a square ', x * x)
 
@@ -15,7 +14,7 @@ st.code('x=2021')
 st.latex(r'''a+ar^1+ar^2+ar^3''')
 
 rand=np.random.normal(1,2,size=20)
-fig, ax= plt.subplots0
+fig, ax= plt.subplotsO
 ax.hist(rand, bins=15)
 st.pyplot(fig)
 
